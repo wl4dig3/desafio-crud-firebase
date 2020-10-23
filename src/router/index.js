@@ -11,7 +11,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/edita',
+    path: '/edita/:id',
     name: 'Edita',
     component: () => import('../views/Edita.vue')
   },
