@@ -11,8 +11,8 @@ export default new Vuex.Store({
     tarea: {nombre: '', id: ''}
   },
   mutations: {
-    setTareas(state, tareas){
-      state.tareas = tareas
+    setTareas(state, payload){
+      state.tareas = payload
     },
     setTarea(state, tarea){
       state.tarea = tarea

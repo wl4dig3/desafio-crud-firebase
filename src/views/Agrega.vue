@@ -19,7 +19,7 @@
 <script>
 import {mapActions} from 'vuex'
 export default {
-  name: 'Agregar',
+  name: 'Agrega',
   data(){
     return{
       nombre: ''

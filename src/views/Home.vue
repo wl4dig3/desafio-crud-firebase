@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Lista de tareas</h1>
+    <h1 class="my-3">Lista de tareas</h1>
     <router-link :to="{name: 'Agrega'}">
       <button class="btn btn-success btn-block">Agregar</button>
     </router-link>
@@ -10,7 +10,7 @@
         {{item.id}} - {{item.nombre}}
         <div class="float-right">
           <router-link class="btn btn-warning btn-sm mr-2" 
-          :to="{name: 'edita', params:{ id: item.id}}">
+          :to="{name: 'Edita', params:{ id: item.id}}">
             Editar
           </router-link>
           <button @click="eliminarTarea(item.id)" class="btn btn-danger btn-sm">Eliminar</button>
