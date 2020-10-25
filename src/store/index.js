@@ -15,8 +15,8 @@ export default new Vuex.Store({
     setTareas(state, payload){
       state.tareas = payload
     },
-    setTarea(state, tarea){
-      state.tarea = tarea
+    setTarea(state, payload){
+      state.tarea = payload
     },
     eliminarTarea(state, id){
       state.tareas = state.tareas.filter( doc => {
